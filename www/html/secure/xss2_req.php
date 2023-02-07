@@ -3,6 +3,7 @@
 
 <html>
 	<title>xss2</title>
+	対策済み
 <body>
 	スクリプトを実行する場合、alert(`1`)とする ``はctrl+@
 	<form method="POST" action="/secure/xss2_res.php">

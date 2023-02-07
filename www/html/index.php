@@ -9,14 +9,13 @@
 <a href="http://localhost:8080/vulune/xss2_req.php"><h2>Stored-XSS</h2></a><br>
 
 <a href="http://localhost:8080/conclude.php"><h2>学習まとめ</h2></br></a>
-学習が終わったら以下のURLへ移動(指示があるまでアクセスしない)
+学習が終わったら以下のURLへ移動してポストテストの準備
 <br>
-<<<<<<< HEAD
+
 <a href="http://18.183.207.65/xss_aws/start.php"><h3>クラウドサーバへ移動</h3>
 
 
 
-=======
-<a href="http://18.183.207.65/xss_aws"><h3>テストサーバへ移動</h3>
->>>>>>> 4eea2a00997913d6f3f84d54637bd9473233060c
+
+
 
