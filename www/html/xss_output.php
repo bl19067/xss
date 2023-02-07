@@ -9,7 +9,7 @@ if(!array_key_exists ("name", $_POST) || $_POST['name'] == NULL || $_POST['name'
 }else {
 	
 	echo '<pre>';
-	echo 'submit' . $_POST['name'];
+	echo 'submit ' . $_POST['name'];
 
 	echo '</pre>';
 	}
@@ -17,4 +17,4 @@ if(!array_key_exists ("name", $_POST) || $_POST['name'] == NULL || $_POST['name'
 	
 
 ?>
-<a href="http://localhost:8080/conclude.php">戻る</a>
+<a href="http://localhost:8080/xss_input.php"><h3>戻る</h3></a>
