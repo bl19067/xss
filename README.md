@@ -5,13 +5,13 @@ docker-compose.ymlをディレクトリトップにする
 
 http://localhost:8080/
 
-途中でwebの動きが悪くなったら./restart.shを実行する
-xss2の実行スクリプトでは<script>alert(`***`)</script>に統一する
+コンテナが立ち上がらなかったりwebの動きが悪くなったりしたら./restart.shを実行する
+xss2の実行スクリプトでは<script>alert(`***`)</script>に統一する(``はctrl+@)
 
 
 
 ポストテスト後半で必要なやられサーバへのアクセス
-http://18.183.207.65/xss-learning/start.php
+http://18.183.207.65/xss_aws/start.php
 
 
 # xss

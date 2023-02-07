@@ -1,6 +1,7 @@
 <!doctype html>
 
 練習<br>
+<img src="./secure/images/cheat_sheet.png" alt="XSSのスクリプト">
     <form method="POST" action="./xss_output.php">
    
     

@@ -19,13 +19,15 @@ services:
  
   db:
     image: mariadb:10.7
+
     environment:
       MARIADB_ROOT_PASSWORD: root
       MARIADB_DATABASE: testdb
       MARIADB_USER: root
       MARIADB_PASSWORD: root
     volumes:
-      - db-data:/var/lib/mysql
+        - ./initdb.d:/docker-entrypoint-initdb.d
+        - db-data:/var/lib/mysql
     ports:
       - 3306:3306  
 

@@ -34,9 +34,8 @@
 	<a href="http://localhost:8080/xss_input.php"><h2>実行環境へ移動</h2></a>
 
 <br>
-<h3>終わったらポストテストを回答する</h3>
-<br>
-<a href="https://forms.gle/Qa2UUPVAoT2SjnSR8"><h2>ポストテスト回答します</h2></a>
+<h3>終わったら戻ってポストテストに回答する</h3>
+<a href="http://localhost:8080/index.php"><h2>戻る</h2></a>
 
 
 
