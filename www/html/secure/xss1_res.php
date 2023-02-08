@@ -8,7 +8,7 @@
 	<body>
 		<?php 
 		#脆弱だよー
-		echo 'hoge!!!!!!!!!!!! ' .htmlspecialchars($_POST['data']);
+		echo 'hoge!!!!!!!!!!!! ' $_POST['data'];
 		?>
 	</br>
 	<div style="padding: 15px;"></div>
