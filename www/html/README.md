@@ -5,7 +5,7 @@ docker-compose.ymlをディレクトリトップにする
 
 http://localhost:8080/
 
-コンテナが立ち上がらなかったりwebの動きが悪くなったりしたら./restart.shを実行する
+コンテナが立ち上がらなかったりwebの動きが悪くなったりしたら./restart.shを実行し、もう一度dbコンテナを改造する
 xss2の実行スクリプトでは<script>alert(`***`)</script>に統一する(``はctrl+@)
 
 
