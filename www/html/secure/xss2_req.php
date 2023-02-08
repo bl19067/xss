@@ -5,7 +5,7 @@
 	<title>xss2</title>
 	対策済み
 <body>
-	スクリプトを実行する場合、alert(`1`)とする ``はctrl+@
+	スクリプトを実行する場合、alert(`任意文字`)とする ``はctrl+@
 	<form method="POST" action="/secure/xss2_res.php">
 		  <div> name</br>
 		  <textarea name="name"></textarea>

@@ -13,7 +13,7 @@ $name = $_POST['name'];
 $detail  = $_POST['detail'];
 
     try{
-      $pdo = new PDO('mysql:dbname=testdb;host=172.22.0.2',$user,$pass);
+      $pdo = new PDO('mysql:dbname=testdb;host=172.21.0.2',$user,$pass);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     }catch (PDOException $e) 
@@ -59,9 +59,10 @@ $detail  = $_POST['detail'];
   </html>
 
 
-<p>登録が完了しました。<br />
+<p>登録が完了しました。<br /><p>
 <div style="padding: 15px;"></div>
-データベースに格納したスクリプトを実行するために「確認する」へ移動<br><a href="http://localhost:8080/vulune/xss2_res.php"><h2>確認する<h2></a></p></br>
-<a href="http://localhost:8080/secure/xss2_review.php">実行後、解説</a>
+データベースに格納したスクリプトを実行するために「確認する」へ移動<br><a href="http://localhost:8080/vulune/xss2_res.php"><h2>確認する<h2></a>
+
+確認できたら解説へ移動</br><a href="http://localhost:8080/secure/xss2_review.php"><h3>解説</h3></a>
 </body>
 </html>
