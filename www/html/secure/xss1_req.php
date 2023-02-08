@@ -15,6 +15,7 @@
        <input type="text" name="data"/>
        <input type="submit" value="送信"/>
    </form>
+   reflected-xss
    	
 </body>
 </html>

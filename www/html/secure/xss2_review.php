@@ -41,7 +41,7 @@
 		ソースコードを修正後、エスケープ処理を確認して終了
 		<br>
 		<div style="padding: 15px;"></div>
-		<a href="http://localhost:8080/secure/xss2_req.php"><h2>実行画面へ移動</h2></a>
+		<a href="http://localhost:8080/secure/xss2_req.php">実行画面へ移動</a>
 		
         </body>
 </html>
