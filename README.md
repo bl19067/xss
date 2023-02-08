@@ -5,7 +5,10 @@ docker-compose.ymlをディレクトリトップにする
 
 http://localhost:8080/
 
+dbコンテナのIPアドレス変更とテーブル作成をする
+
 コンテナが立ち上がらなかったりwebの動きが悪くなったりしたら./restart.shを実行する
+
 xss2の実行スクリプトでは<script>alert(`***`)</script>に統一する(``はctrl+@)
 
 
