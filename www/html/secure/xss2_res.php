@@ -27,7 +27,7 @@ $detail  = $_POST['detail'];
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
       #脆弱だよー
-      $name = $_POST ['name'];
+      $name = $_POST['name'];
       $detail  = $_POST['detail'];
 
 
@@ -61,6 +61,6 @@ $detail  = $_POST['detail'];
   </html>
 
 
-<p>登録が完了しました。<br/>エスケープ処理ができていることが出来たら学習を終了する。<br><a href="http://localhost:8080/index.php"><h2>戻る</h2></a></p>
+<p>登録が完了しました。<br/>htmlspecialchar関数を使った受け取り<h3>htmlspecialchar($_POST[""])</h3>を使えばエスケープ処理ができる。<br><a href="http://localhost:8080/index.php"><h2>戻る</h2></a></p>
 </body>
 </html>
