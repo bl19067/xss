@@ -10,8 +10,8 @@
 $user='root';
 $pass='root';
 #脆弱だよー
-$name = htmlspecialchars($_POST['name']);
-$detail  = htmlspecialchars($_POST['detail']);
+$name = $_POST['name'];
+$detail  = $_POST['detail'];
 
     try{
       $pdo = new PDO('mysql:dbname=testdb;host=172.21.0.2',$user,$pass);
@@ -27,8 +27,8 @@ $detail  = htmlspecialchars($_POST['detail']);
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
       #脆弱だよー
-      $name = htmlspecialchars($_POST['name']);
-      $detail  = htmlspecialchars($_POST['detail']);
+      $name = $_POST['name'];
+      $detail  = $_POST['detail'];
 
 
     }catch(PDOException $Exception){
