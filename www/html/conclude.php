@@ -29,11 +29,11 @@
 	最後にXSSを利用した不正スクリプト例を実行して終了する</br>
 	<img src="./secure/images/cheat_sheet.png" alt="XSSのスクリプト">
 	<div style="padding: 20px;"></div>
-	<a href="http://localhost:8080/xss_input.php">実行環境へ移動</a>
+	<h3><a href="http://localhost:8080/xss_input.php">実行環境へ移動</a></h3>
 
 <br>
 <h3>終わったら戻る</h3>
-<a href="http://localhost:8080/index.php">戻る</a>
+<h3><a href="http://localhost:8080/index.php">戻る</a></h3>
 
 
 

@@ -8,12 +8,12 @@
 	<body>
 		<?php 
 		#脆弱だよー
-		echo 'hoge!!!!!!!!!!!! ' $_POST['data'];
+		echo 'hoge!!!!!!!!!!!! '.htmlspecialchars($_POST['data']);
 		?>
 	</br>
 	<div style="padding: 15px;"></div>
 	
-	<a href="http://localhost:8080">最初のページに戻る</a>
+	<h3><a href="http://localhost:8080">最初のページに戻る</a></h3>
 	
         </body>
 </html>

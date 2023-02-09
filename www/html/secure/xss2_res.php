@@ -26,7 +26,7 @@ $detail  = $_POST['detail'];
       $sql ="INSERT INTO securelist VALUES ('$name','$detail')";
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
-      #脆弱だよー
+      #脆弱だよー>
       $name = $_POST['name'];
       $detail  = $_POST['detail'];
 
@@ -61,6 +61,6 @@ $detail  = $_POST['detail'];
   </html>
 
 
-<p>登録が完了しました。<br/>htmlspecialchar関数を使った受け取り<h3>htmlspecialchar($_POST[""])</h3>を使えばエスケープ処理ができる。<br><a href="http://localhost:8080/index.php"><h2>戻る</h2></a></p>
+<p>登録が完了しました。</p><br/>htmlspecialchar関数を使った受け取り<h3>htmlspecialchar($_POST[""])</h3>を使えばエスケープ処理ができる。<br><h3><a href="http://localhost:8080/index.php">戻る</a></h3>
 </body>
 </html>

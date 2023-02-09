@@ -13,5 +13,5 @@
 </br>
 <h4>F12キーで入力したスクリプトを確認</h4>
 <br>
-	<a href="http://localhost:8080/secure/xss1_review.php">解説へ移動</a>
+	<h3><a href="http://localhost:8080/secure/xss1_review.php">解説へ移動</a></h3>
 </html>
