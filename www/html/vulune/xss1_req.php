@@ -20,7 +20,7 @@
 		<img src="./images/querypara.png" alt="レスポンスが返された" tilte="request and response">
 		<h2>反射型XSSを引き起こせる脆弱なプログラムだとスクリプトが実行されてしまう。</br></h2>
 	        <p2>以下のように入力フォームに実行する<br></p2>
-		<img src="./images/xss_script.png" alt='スクリプトの実行例' title="script">
+		<img src="./images/script.png" alt='スクリプトの実行例' title="script">
 		<br>
 	</body>
 </html>

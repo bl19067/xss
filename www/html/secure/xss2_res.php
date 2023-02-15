@@ -9,12 +9,12 @@
 <?php
 $user='root';
 $pass='root';
-#脆弱だよー
+
 $name = $_POST['name'];
 $detail  = $_POST['detail'];
 
     try{
-      $pdo = new PDO('mysql:dbname=testdb;host=172.21.0.2',$user,$pass);
+      $pdo = new PDO('mysql:dbname=testdb;host=172.24.0.2',$user,$pass);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     }catch (PDOException $e) 
@@ -26,7 +26,7 @@ $detail  = $_POST['detail'];
       $sql ="INSERT INTO securelist VALUES ('$name','$detail')";
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
-      #脆弱だよー>
+      
       $name = $_POST['name'];
       $detail  = $_POST['detail'];
 

@@ -20,6 +20,7 @@
 			スクリプトを実行する場合、alert(`任意文字`)とする ``はctrl+@
 		
 		</ol>
+		<img src="./images/script2.png" ><br>
 	<form method="POST" action="/vulune/xss2_res.php">
 		  <div> name</br>
 		  <textarea name="name"></textarea>

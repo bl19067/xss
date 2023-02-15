@@ -13,7 +13,7 @@ $name = $_POST['name'];
 $detail  = $_POST['detail'];
 
     try{
-      $pdo = new PDO('mysql:dbname=testdb;host=172.21.0.2',$user,$pass);
+      $pdo = new PDO('mysql:dbname=testdb;host=172.24.0.2',$user,$pass);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     }catch (PDOException $e) 
