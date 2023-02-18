@@ -7,7 +7,7 @@
 
 docker-compose.ymlをディレクトリトップにする
 
-./start.shを起動したら自動で立ち上がる
+./start.shを起動したら自動でビルドして起動する
 
 
 http://localhost:8080/

@@ -13,7 +13,7 @@ $name = $_POST['name'];
 $detail  = $_POST['detail'];
 
     try{
-      $pdo = new PDO('mysql:dbname=testdb;host=172.24.0.2',$user,$pass);
+      $pdo = new PDO('mysql:dbname=testdb;host=192.168.192.2',$user,$pass);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     }catch (PDOException $e) 
@@ -22,7 +22,7 @@ $detail  = $_POST['detail'];
       echo $e->getMessage() . "\n";
       exit;
     }try{
-      $sql ="INSERT INTO tasklist VALUES ('$name','$detail')";
+      $sql ="INSERT INTO vulunelist VALUES ('$name','$detail')";
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
       $name = $_REQUEST['name'];
@@ -33,7 +33,7 @@ $detail  = $_POST['detail'];
       die('接続エラー：' .$Exception->getMessage());
     }
     try{
-      $sql = "SELECT * FROM testdb.tasklist";
+      $sql = "SELECT * FROM testdb.vulunelist";
       $stmh = $pdo->prepare($sql);
       $stmh->execute();
 
