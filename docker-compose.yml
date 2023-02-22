@@ -35,7 +35,7 @@ services:
       MARIADB_PASSWORD: root
     volumes:
         - db-data:/var/lib/mysql
-        - .:/docker-entrypoint-initdb.d
+        - ./sql:/docker-entrypoint-initdb.d
     ports:
       - 3306:3306
   phpmyadmin:
